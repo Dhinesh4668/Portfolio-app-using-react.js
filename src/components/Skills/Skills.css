@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.skillcontainer{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ top: 300px;
+ padding-top: 70px;
+ padding-bottom: 70px;
+ margin: 650px 0px 0px 0px;
+}
+
+.skillcontainer__text{
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.skillcontainer__text> h1{
+    font-size: 30px;
+}
+
+.skillcontainer__image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 50px;
+    min-width: 500px;
+}
+
+.skillcontainer__text>h1{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.skillcontainer__sub>h5{
+    font-family: 'Inconsolata', monospace;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.skillcontainer__slider {
+    min-width: 500px;
+    margin-right: 50px;
+}
+.skillcontainer__slider > .MuiLinearProgress-colorPrimary {
+    background-color: #f8f9fa;
+}
+.skillcontainer_slidder1 >  .MuiLinearProgress-barColorPrimary{
+    background-color: #4CAF50;
+}

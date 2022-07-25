@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); 
+/* 'Pacifico', cursive => use this name */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.headder{
+    display: flex;
+    align-items: center;
+    padding: 20px 70px 20px 70px;
+    top: 0;
+    position: fixed;
+    min-width: 200vh;
+    justify-content: space-evenly;
+    z-index: 2000;
+}
+.headder__left{
+    flex: 0.4;
+
+}
+.headder__right{
+    display: flex;
+    flex: 0.4;
+    justify-content: space-evenly;
+    font-family: 'Roboto Mono', monospace;
+    align-items: center;
+}
+.headder__left > h2 {
+    font-family: 'Roboto Mono', monospace;
+    cursor: auto;
+}
+.headder__left > h2 > span {
+    font-weight: lighter;
+    color: #BDC3C7;
+}
+.headder__right > a > p {
+    font-size: 19px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+.headder__right >a> p:hover{
+    transform: scale(1.09);
+    color: #BDC3C7;
+}
+
+@media screen and (max-wisth: 500px) {
+    .headder{
+        padding: 20px 10px !important;
+    }
+
+    .headder__right {
+        float: none;
+        display: block;
+        text-align: right;
+    }
+    
+    
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+.topcon {
+    position: absolute;
+    display: flex;
+    top: 200px;
+    left: 150px;
+    padding: 70px 0px 60px 0px ;
+    margin: 20px 0px 30px 0px;
+}
+
+.topContent__container>h {
+    background-color: #4CAF50;
+    /* Green */
+    border-radius: 4px;
+    padding: 10px 5px ;
+    text-align: center;
+    color: #0b090a;
+    display: inline-block;
+    font-weight: 600;
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+.topContent__container>p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 20px 0px 0px 10px;
+    font-family: 'Inconsolata', monospace;
+    color: #d9d9d9;
+}
+
+.topContent__container>a>button {
+    margin: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Inconsolata', monospace;
+    border-radius: 10px;
+}
+
+
+.topContent__dow:hover{
+    border: 1px solid green !important;
+    color: #e5e5e5;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.topContent__container>h1 {
+    font-size: 50px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.topContent__dow{
+    color: #0b090a;
+    background-color: #4CAF50;
+    font-size: 15px;
+    font-weight: 650;
+    cursor: pointer;
+    padding: 10px 30px;   
+}
+
+.topContent__work {
+    border: 1px solid green !important;
+    color: #e5e5e5;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 9px 45px;
+    cursor: pointer;
+}
+.topContent__work:hover{
+    color: #0b090a;
+    background-color: #4CAF50;
+    font-size: 15px;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+.topContent__social{
+    justify-content: space-evenly;
+    display: flex;
+}

@@ -1,0 +1,34 @@
+
+
+.contactcontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 200px;
+    
+}
+
+.contactcontainer__brodder > p {
+   display: flex;
+   margin: 10px 0px 5px 0px;
+   align-items: center;
+   justify-content: center;
+}
+
+.contactcontainer__brodder {
+    border:  2px solid #343a40;
+    box-shadow: gray;
+    height: 200px;
+    width: 700px;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contactcontainer__brodder > p > span {
+    color: #4CAF50;
+    padding-left: 3px;
+}

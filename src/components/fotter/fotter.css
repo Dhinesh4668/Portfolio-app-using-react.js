@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+
+.fottercontainer {
+    background-color: #343a40;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+.fottercontainer > h1 {
+    background-color: #343a40;
+    font-family: 'Roboto Mono', monospace;
+}
