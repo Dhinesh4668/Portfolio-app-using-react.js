@@ -1,9 +1,25 @@
 import React from 'react'
 import "./App.css"
+import {
+  HeadderScreen,
+  TopContainer,
+  SkillsContainer,
+  ProjectContainer,
+  About,
+  Fotter
+} from "./components/index"
 
-function App() {
+
+const App = () => {
   return (
-    <div className='App'>App</div>
+    <div className='App'>
+      <HeadderScreen />
+      <TopContainer />
+      <SkillsContainer />
+      <ProjectContainer />
+      <About />
+      <Fotter />
+    </div>
   )
 }
 

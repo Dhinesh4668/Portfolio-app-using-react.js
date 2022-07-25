@@ -7,8 +7,8 @@
     align-items: center;
     padding: 20px 70px 20px 70px;
     top: 0;
-    position: fixed;
-    min-width: 200vh;
+    /* position: fixed; */
+    /* min-width: 200vh; */
     justify-content: space-evenly;
     z-index: 2000;
 }

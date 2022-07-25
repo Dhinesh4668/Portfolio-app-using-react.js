@@ -1,15 +1,25 @@
 {
   "name": "portfolio",
+  "homepage": "https://Dhinesh4668.github.io/Portfolio-app-using-react.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.9.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.9.1",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
+    "react-card-slider-component": "^1.0.9",
     "react-dom": "^18.2.0",
+    "react-feather": "^2.0.10",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.7",
+    "save-dev": "^0.0.1-security",
     "tailwindcss": "^3.1.6",
     "web-vitals": "^2.1.4"
   },
@@ -17,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
