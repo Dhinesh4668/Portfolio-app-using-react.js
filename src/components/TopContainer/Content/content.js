@@ -15,7 +15,7 @@ const content = () => {
                 <h>  App Devloper, Web Designer  </h>
                 <h1>👋, I'm Dhinesh Kumar</h1>
                 <p>A professional Web Designer🕸️and Native app📱devloper</p>
-                <a href='https://bit.ly/3aZ2NrY'>
+                <a href='https://bit.ly/3QlnywL'>
                     <button className='topContent__dow'>Downloade CV 🗒️</button>
                 </a>
                 <Link to='projects' smooth={true} duration={500}>
