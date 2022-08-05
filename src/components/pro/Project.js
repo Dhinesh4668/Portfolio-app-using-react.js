@@ -11,19 +11,27 @@ const project = () => {
         <h1>Our <span>Projects</span></h1>
         <p>Here are some Projects Witch I done for making lives of peoples easy.</p>
         <div className='projectcontainer__det'>
-          <h4>A.I using python 🐍🦕</h4>
+          <h4>Portfolio Web Using React.js ⚛️</h4>
           <img src='../../assets/skills.svg' alt='' />
         </div>
         <div className='projectcontainer__det'>
-          <h4>A.I using python 🐍🦕</h4>
+          <h4>Portfolio Web Using HTML-CSS (annimation)</h4>
           <img src='../../assets/skills.svg' alt='' />
         </div>
         <div className='projectcontainer__det'>
-          <h4>A.I using python 🐍🦕</h4>
+          <h4>To-Do app📱 using Rect Native ⚛️</h4>
           <img src='../../assets/skills.svg' alt='' />
         </div>
         <div className='projectcontainer__det'>
-          <h4>A.I using python 🐍🦕</h4>
+          <h4>Telegram Clone Using Flutter 📞</h4>
+          <img src='../../assets/skills.svg' alt='' />
+        </div>
+        <div className='projectcontainer__det'>
+          <h4>Login Page Using HTML-CSS-JS</h4>
+          <img src='../../assets/skills.svg' alt='' />
+        </div>
+        <div className='projectcontainer__det'>
+          <h4>E-Learning app📱 using React-native ⚛️</h4>
           <img src='../../assets/skills.svg' alt='' />
         </div>
       </div>
